@@ -1,0 +1,144 @@
+body{
+	margin: 0;
+}
+
+#cabecalho ul {
+  margin: 0;
+
+}
+#cabecalho ul > li {
+  margin: 0 5px;
+  padding: 0 0 8px;
+  float: left;
+  list-style: none;
+}
+
+#cabecalho ul > ul li {
+  margin: 0 5px;
+  padding: 0 0 8px;
+  float: none;
+  list-style: none;
+}
+
+#cabecalho a,
+#cabecalho a:link {
+  font-weight: bold;
+  font-size: 13px;
+  color: #e7e5e5;
+  text-decoration: none;
+  display: block;
+  padding: 8px 20px;
+  margin: 0;
+}
+
+#cabecalho a:hover {
+  background: #000;
+  color: #000;
+}
+
+#cabecalho .active a,
+#cabecalho li:hover > a {
+  background: #ccc;
+  color: #000;
+}
+
+#cabecalho ul ul li:hover a,
+#cabecalho li:hover li a {
+  background: none;
+  border: none;
+  color: #000;
+}
+
+#cabecalho ul ul a:hover {
+  background: #7d7d7d;
+  color: #000 !important;
+}
+
+#cabecalho li:hover > .sub .subinner ul {
+  display: block;
+}
+
+#cabecalho ul ul {
+  z-index: 1000;
+  display: none;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  border-bottom: solid 1px #b4b4b4;
+  border-top: solid 1px #b4b4b4;
+}
+
+#cabecalho ul ul li {
+  float: left;
+  margin: 0;
+  padding: 3px;
+
+}
+
+#cabecalho li:nth-child(2) ul ul li {
+  float: none;
+  margin: 0;
+  padding: 3px;
+}
+
+#cabecalho li:nth-child(2) ul ul li a{
+
+     border-bottom: 1px solid #B4B4B4;
+}
+
+#cabecalho ul ul a,
+#cabecalho ul ul a:link {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#cabecalho ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+* html #cabecalho ul {
+  height: 1%;
+}
+
+#cabecalho ul li:nth-child(2) .subinner{
+	top: 47px;
+	position: absolute;
+	left: 0px;
+	width: 100%;
+}
+
+#cabecalho ul li:nth-child(3) .subinner{
+	top: 47px;
+	position: absolute;
+	left: 0px;
+	width: 100%;
+}
+
+#cabecalho{
+	
+	margin: 0px;
+	padding: 7px 6px 0px;
+	background: #808080 none repeat scroll 0% 0%;
+	line-height: 100%;
+	width: auto;
+	height: 80px;
+}
+
+#cabecalho li:nth-child(2):hover > .sub .subinner ul {
+	width: 100%;
+}
+
+#cabecalho li:hover > .sub .subinner ul {
+	width: 100%;
+}
+
+#cabecalho .subinner ul ul{
+	float: left;
+	width: 33% !important;
+	border: none;
+} 

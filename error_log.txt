@@ -1,0 +1,10 @@
+Em 21/06/2016_02:06:35 ocorreu o seguinte erro: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'usuario_mostra'@'localhost' (using password: YES)' in /opt/lampp/htdocs/SistemaMostra/connect.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/SistemaMostra/connect.php(3): PDO->__construct('mysql:host=loca...', 'usuario_mostra', 'senha_mostra')
+#1 {main}<br>Em 21/06/2016_02:06:35 ocorreu o seguinte erro: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'usuario_mostra'@'localhost' (using password: YES)' in /opt/lampp/htdocs/SistemaMostra/connect.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/SistemaMostra/connect.php(3): PDO->__construct('mysql:host=loca...', 'usuario_mostra', 'senha_mostra')
+#1 {main}<br>Em 21/06/2016_02:06:39 ocorreu o seguinte erro: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'usuario_mostra'@'localhost' (using password: YES)' in /opt/lampp/htdocs/SistemaMostra/connect.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/SistemaMostra/connect.php(3): PDO->__construct('mysql:host=loca...', 'usuario_mostra', 'senha_mostra')
+#1 {main}<br>
